@@ -1,0 +1,144 @@
+﻿@CHARSET "UTF-8";
+
+body {
+	background-color: #D2DCE3;
+	FONT-FAMILY: arial,verdana,tahoma;
+}
+
+
+h1 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 18px; 
+	COLOR: #104a7b; 
+	FONT-FAMILY: arial,tahoma
+}
+
+h2 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 16px; 
+	COLOR: #104a7b; 
+	FONT-FAMILY: arial,tahoma
+}
+
+h3 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 14px; 
+	COLOR: #104a7b; 
+	FONT-FAMILY: arial,tahoma
+}
+
+a:hover {
+	FONT-FAMILY: Arial, verdana;
+	FONT-SIZE: 10pt;
+	 
+	COLOR:#AAAAAA;
+	TEXT-DECORATION: underline;
+}
+a {
+	FONT-FAMILY: Arial, verdana;
+	FONT-SIZE: 10pt;
+	COLOR:#1f48d9;
+	TEXT-DECORATION:none;
+}
+.alink {
+	font-family:arial;
+	font-size:10pt;
+	color:#FFFF00;
+	text-decoration:none;
+}
+
+.link {
+	font-family:arial;
+	font-size:10pt;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+input {
+	border: 1px solid #AAAAAA;
+		padding: 0px 3px 0px 3px;
+}
+
+select {
+	border: 1px solid #AAAAAA;
+}
+
+
+.buttons {
+	BACKGROUND-COLOR: #5E95C1;
+	BORDER-BOTTOM-COLOR: #99ccff;
+	BORDER-LEFT-COLOR: #99ccff;
+	BORDER-RIGHT-COLOR: #99ccff;
+	BORDER-TOP-COLOR: #99ccff;
+	COLOR: white;
+	FONT-FAMILY: Arial, geneva;
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	padding: 2px 4px 2px 4px;
+}
+
+.title {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 26px; 
+	COLOR: #104a7b; 
+	FONT-FAMILY: arial,tahoma
+}
+
+
+p {
+	font-family: arial, verdana;
+	font-size: 10pt;
+	color: #0066FF;/*#990000;  olive; */
+    margin:0cm;
+	margin-bottom:.0001pt;
+   	vertical-align:top;
+	}
+	
+#divtoolbar,#divselectedtool,#divcellinfo{
+	border-style: groove;
+	
+} 
+#listing{
+	background-color: #FF0000;
+}
+
+td{
+	border:0;
+	padding: 0px;
+}
+
+#tb_map{
+	background-color:gray;
+}
+
+.clicable_cell{
+	cursor: pointer;
+}
+
+.defaulttable{
+	text-align: center;
+	left: 20%;
+	right: 20%;
+	padding: 4px;
+}
+.td_header_default, .td_default{
+	border: 1px;
+	padding: 1px;
+}
+
+
+/* Main config */
+/*
+#divmap{
+	left: 10%;
+	
+}
+#divtoolbar{
+	left: 60%;
+}
+
+echo getDivEmpty("", $pos_x_ini_rightbar , $pos_y_inicio, $largura_rightbar, $pos_y_selected_tool-$pos_y_inicio - 5, $toolbar_data);
+echo getDivEmpty("divselectedtool", $pos_x_ini_rightbar, $pos_y_selected_tool, $largura_rightbar, $pos_y_cell_info - $pos_y_selected_tool - 5,$selected_tool );
+echo getDivEmpty("divcellinfo", $pos_x_ini_rightbar, $pos_y_cell_info,  $largura_rightbar, 100);
+echo '<div id="listing" style="display: none; position: fixed; height: 20px; width: 80px; top: 5px; right: 5px; text-align: right;">Loading...</div>';
+*/

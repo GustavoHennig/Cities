@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+function valida(obj) {
+
+   
+
+    if(obj.Text1.value == ''){
+        alert("Camo inválido");
+        obj.Text1.focus();
+        return false;
+    }
+else{    
+ obj.Button1.value= 'Enviando, aguarde...';
+    return true;
+    }
+}
+
+// ]]>
+</script>
+</head>
+<body>
+    Editando Pessoa<br />
+    <br />
+    <br />
+    <form action=""  onsubmit="return valida(this)">
+    <table style="width: 382px; height: 141px">
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Codigo</td>
+            <td>
+                <input id="Text1" type="text" /></td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Nome</td>
+            <td>
+                <input id="Text2" type="text" /></td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Telefone</td>
+            <td>
+                <input id="Text3" type="text" /></td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Endereço</td>
+            <td>
+                <input id="Text4" type="text" /></td>
+            <td>
+            </td>
+        </tr>
+    </table>
+    <input id="Submit1" type="submit" value="Gravar" />
+    <input id="Button1" type="button" value="button" onclick="return Button1_onclick()" />
+</form>
+</body>
+</html>

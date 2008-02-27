@@ -1,0 +1,24 @@
+
+Ao clicar em um item do mapa exibir no div info, informa��es sobre o item. Caso a ferramenta utilizada seja de informa��o.
+
+Implementar:
+Relacionamento entre cidades 
+	(Algumas relações somente podem existir entre seus 6 vizinhos:
+		Compartilhamento de água, energia, coleta de lixo 
+	porem outras podem ser feitas com todas cidades:
+		Relações comerciais, tecnológicas, educação, saúde, entretenimento, tv, internet
+	)
+Compra de cidades
+Exibição do sumário da cidade: Poluição, Água, Energia
+Informação sobre a célula selecionada.
+Evolução por níveis.
+Upgrade em construções.
+OK - Construções longe de ruas. 
+Problemas com poluição
+Problemas com falta de água
+Problemas com falta de energia
+Implementar educação e problemas com falta de educação.
+Implementar saúde e problemas com falta de saúde.
+Implementar sistema de troca de mensagens entre usuários (Chat), com possibilidade de exclusão de mensagens.
+Implementar banco(Banco mundial), onde os recursos ficam depositados, redendo x% por turno.
+
